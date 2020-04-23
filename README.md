@@ -1,18 +1,18 @@
 
-# Songplays (Postgres Data Modeling)
+# Songplays (Postgres and Apache Cassandra Data Modeling)
 
 Sparkify wants to analyze the data they've been collecting on songs and user activity on their new music streaming app. 
 
-Here, we create a Postgres database with tables designed to optimize queries on song play analysis
+Here, we create a Postgres and Apache Cassandra database with tables designed to optimize queries on song play analysis
 
-Songplays is a postgresql database ETL on songplays data created from files with songs data files and logs data files.
+Songplays is a postgresql and Apache Cassandra database ETL on songplays data created from files with songs data files and logs data files.
 
 create_tables.py - Creates database and drops any existing tables prior to creating
-etl.ipynb - shows the etl on the jupyter notebook
-etl.py - processes the files
-sql_querys.py - has all the queries used in the project
-test.ipynb - shows a summary on the project's tables
-
+etl.ipynb - shows the postgres etl on the jupyter notebook
+etl.py - processes the files to the postgres database
+sql_querys.py - has all the postgres queries used in the project
+test.ipynb - shows a summary on the postgres project's tables
+Project_1B_ Project_Template.ipynb - shows Apache Cassandra ETL
 
 ## Installation of postgresql wrapper
 
